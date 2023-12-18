@@ -34,7 +34,16 @@ Before running the program, navigate to the Team04 directory using the command:`
 - Interactive focal point selection.
 ## Demo
 Here's a quick look at the Seamless Focal Stack in action:
-![Seamless refocusing]([URL_TO_YOUR_GIF](https://github.com/hao1219/Seamless-Refocusing/blob/main/demo/aligned.gif))
+<p align="center">
+  <img src="https://github.com/hao1219/Seamless-Refocusing/blob/main/demo/aligned.gif" width="400" height="300" />
+  <br>
+  <em>Seamless Refocus</em>
+</p>
+<p align="center">
+  <img src="https://github.com/hao1219/Seamless-Refocusing/blob/main/demo/not_aligned.gif" width="400" height="300" />
+  <br>
+  <em>Non-Seamless Refocus</em>
+</p>
 
 
 ## License
