@@ -9,7 +9,7 @@ Ensure you have Python, OpenCV, NumPy, and tqdm installed. Clone the repository 
 pip install -r requirements.txt
 ```
 ## Setup
-Before running the program, navigate to the Team04 directory using the command:`cd path/to/Team04`
+Before running the program, navigate to the Team04 directory using the command:`cd path/to/seamless_refocus`
 
 ## Usage
 Run the script in the following ways:
@@ -40,4 +40,10 @@ Run the script in the following ways:
 ## License
 This project and algorithm was inspired and adapted from the following sources:
 - [momonala's focal stacking](https://github.com/momonala/focus-stack/tree/master)
+- [Image Alignment (Feature Based) using OpenCV (C++/Python)](https://learnopencv.com/image-alignment-feature-based-using-opencv-c-python/)
+- [Image Alignment (Feature Based) using OpenCV (C++/Python)](https://learnopencv.com/image-alignment-feature-based-using-opencv-c-python/)
+- [Image Alignment (ECC) in OpenCV (C++/Python)](https://learnopencv.com/image-alignment-ecc-in-opencv-c-python/)
+Images provided in seamless_refocus/focal_stacks
+-[leaves](https://github.com/hosseinjavidnia/Depth-Focal-Stack/tree/master/Data)
+-[pcb and depthmap](https://github.com/PetteriAimonen/focus-stack/tree/master/examples)
 
