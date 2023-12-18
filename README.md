@@ -1,4 +1,4 @@
-# Seamless Ｒefocusing
+# Seamless Refocusing
 
 ## Description
 This program aims to enhance the photographic experience by addressing a key challenge in traditional photography: the inability to refocus after a photo is taken. Traditional cameras require pre-capture focusing, but our program leverages focal-stack refocusing, a technique where multiple images at different focal lengths are captured and stored. Users can then choose the sharpest image for any given point. The project's primary goal is to eliminate radial image distortions and blurring caused by lens movement during focal-stack shooting, significantly improving the post-capture refocusing experience
