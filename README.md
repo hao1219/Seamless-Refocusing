@@ -14,13 +14,30 @@ Before running the program, navigate to the Team04 directory using the command:`
 ## Usage
 Run the script in the following ways:
 
-- Default, just run: `python refocus.py`
+
+## Usage
+- Basic usage,show refocus window with default test aligned focal stack: `python refocus.py`
 - To show an all in focus image: `python refocus.py -i "input_folder" -all`
 - To show the refocus window with aligned focal stack: `python refocus.py -i "input_folder" --aligned`
 - To show the refocus window with the original focal stack: `python refocus.py -i "input_folder" --not-aligned`
-- If the input directory (`-i "input_folder"`) is not specified, the default input folder 'test' will be used.
+- To use with custom parameters: `python main.py -i <input_folder> -dx <dx_factor> -dy <dy_factor> -bt <black_threshold>`
+- If the input directory (`-i "input_folder"`) is not specified, the default input folder in focal_stacks 'test' will be used.
+
+## Parameters
+- `-i`, `--input`: Input directory (default 'test')
+- `-dx`, `--dx_factor`: dx factor for sharpness calculation (default 200)
+- `-dy`, `--dy_factor`: dy factor for sharpness calculation (default 200)
+- `-bt`, `--black_threshold`: Threshold for black border removal (default 30)
+- `-all`, `--all_focus`: Call all_focus function to generate an all-focus image
+- `--aligned`: Use aligned images (default)
+- `--not-aligned`: Use non-aligned images
+
 ## Features
 - Aligns images to correct shifts during shooting.
 - Computes sharpness gradients using Laplacian convolution.
 - Interactive focal point selection.
+
+## License
+This project and algorithm was inspired and adapted from the following sources:
+- [momonala's focal stacking](https://github.com/momonala/focus-stack/tree/master)
 
