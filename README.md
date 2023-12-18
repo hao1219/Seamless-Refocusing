@@ -12,10 +12,6 @@ pip install -r requirements.txt
 Before running the program, navigate to the Team04 directory using the command:`cd path/to/seamless_refocus`
 
 ## Usage
-Run the script in the following ways:
-
-
-## Usage
 - Basic usage,show refocus window with default test aligned focal stack: `python refocus.py`
 - To show an all in focus image: `python refocus.py -i "input_folder" -all`
 - To show the refocus window with aligned focal stack: `python refocus.py -i "input_folder" --aligned`
@@ -36,6 +32,10 @@ Run the script in the following ways:
 - Aligns images to correct shifts during shooting.
 - Computes sharpness gradients using Laplacian convolution.
 - Interactive focal point selection.
+## Demo
+Here's a quick look at the Seamless Focal Stack in action:
+![Seamless refocusing]([URL_TO_YOUR_GIF](https://github.com/hao1219/Seamless-Refocusing/blob/main/demo/aligned.gif))
+
 
 ## License
 This project and algorithm was inspired and adapted from the following sources:
