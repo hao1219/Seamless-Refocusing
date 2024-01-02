@@ -51,7 +51,6 @@ This project and algorithm was inspired and adapted from the following sources:
 
 - [momonala's focal stacking](https://github.com/momonala/focus-stack/tree/master)
 - [Image Alignment (Feature Based) using OpenCV (C++/Python)](https://learnopencv.com/image-alignment-feature-based-using-opencv-c-python/)
-- [Image Alignment (Feature Based) using OpenCV (C++/Python)](https://learnopencv.com/image-alignment-feature-based-using-opencv-c-python/)
 - [Image Alignment (ECC) in OpenCV (C++/Python)](https://learnopencv.com/image-alignment-ecc-in-opencv-c-python/)
   
 Images provided in seamless_refocus/focal_stacks:
